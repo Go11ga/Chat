@@ -1,4 +1,5 @@
 # Chat
+React. Тестовое задание TOT-Systems
 
 ## Installation
 npm i
