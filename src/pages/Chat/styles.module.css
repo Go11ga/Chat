@@ -1,0 +1,49 @@
+.user {
+    font-size: 12px;
+    color: #ff0000;
+}
+
+.user__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.user__msg {
+    width: 80%;
+}
+
+.msg {
+    font-size: 12px;
+    color: #007c00;
+    text-align: right;
+}
+
+.msg__box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.msg__msg {
+    width: 80%;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.header {
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.content {
+    margin-top: 10vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
